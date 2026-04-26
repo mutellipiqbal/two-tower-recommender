@@ -1,0 +1,22 @@
+# Two-Tower Retrieval Model — Requirements
+# Pinned to latest stable versions as of April 2026
+# Install: pip install -r requirements.txt
+
+# Core deep learning
+torch==2.11.0
+torchvision==0.22.0       # optional, for image-based item towers
+
+# MLflow experiment tracking (v3 API)
+mlflow==3.11.1
+
+# Approximate Nearest Neighbour index (FAISS)
+faiss-cpu==1.13.2         # swap for faiss-gpu if you have CUDA
+
+# Data
+pandas==3.0.2
+numpy==2.2.5
+scikit-learn==1.8.0
+
+# Utilities
+tqdm==4.67.1
+matplotlib==3.10.3

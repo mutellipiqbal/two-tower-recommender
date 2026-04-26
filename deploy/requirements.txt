@@ -1,0 +1,8 @@
+# requirements.txt for Hugging Face Spaces deployment
+# Place this file at the ROOT of the Space repo (not inside deploy/)
+
+torch==2.11.0
+faiss-cpu==1.13.2
+gradio==5.31.0
+huggingface_hub==0.32.0
+numpy==2.2.5
